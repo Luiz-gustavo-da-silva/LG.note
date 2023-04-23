@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.input{
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #fcfcfc;
+  color: #808080ab;
+}
+
+.input::placeholder{
+  color: #808080ab;
+}
+
+.input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.buttonSearch{
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 1rem;
+  margin-left: 2.2rem;
+}
+
+.header {
+	grid-area: header;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+@media (max-width: 700px){
+  
+  .container{
+    padding: 0rem;
+  }
+  .header{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .buttonSearch{
+    margin: 0;
+  }
+}

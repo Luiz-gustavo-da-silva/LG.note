@@ -1,0 +1,50 @@
+.buttonPlus{
+    border: none;
+    background-color: #323232;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 1rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCircle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+}
+
+.input{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: solid 1px #000;
+    background: none;
+}
+
+#b1{
+    background-color: #dbbdff;
+}
+
+#b2{
+    background-color: #efeacd;
+}
+
+#b3{
+    background-color: #ffbdca;
+}
+
+#b4{
+    background-color: #ddecd0;
+}
+
+#b5{
+    background-color: #ffbcaa;
+}
+
+

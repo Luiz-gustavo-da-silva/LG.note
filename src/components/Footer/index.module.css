@@ -1,0 +1,15 @@
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+
+}
+
+.footer {
+  grid-area: footer;
+  
+}
