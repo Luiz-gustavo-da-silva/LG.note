@@ -1,1 +1,1 @@
-# EJECT.note
+# LG.note
