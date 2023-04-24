@@ -7,7 +7,7 @@ function SideBar() {
     <div className={style.sidebar}>
       <div className={style.container}>
         <div>
-          <h1 className={style.logo}>EJECT.note</h1>
+          <h1 className={style.logo}>LG.note</h1>
         </div>
         <div>
           <ButtonPlus />

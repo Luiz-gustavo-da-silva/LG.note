@@ -4,27 +4,51 @@
 }
 
 .divH1{
+	width: 85%;
+	margin: auto;
 	margin-bottom: 2rem;
 	margin-top: 1rem;
-	padding-left: 6rem;
 }
 
-@media (max-width: 700px){
-    
-	.containerCelulas{
-		gap: 0.5rem;
+.divH1 h1{
+	font-size: 2.5rem;
+	font-family: "Roboto Mono";
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 10px;
+	width: 85%;
+	margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+	.gridContainer {
+		grid-template-columns: repeat(3, 1fr);
 	}
-	
+}
+
+@media screen and (max-width: 700px) {
+	.gridContainer {
+		grid-template-columns: repeat(2, 1fr);
+		width: 90%;
+	}
 	.mainContent{
 		width: 100%;
 	}
-	.mainContent h1{
-		padding-left: 0.5rem;
-	}
-
 	.divH1{
-		padding-left: 0.5rem;
+		width: 90%;
 	}
 	
 }
+
+@media screen and (max-width: 600px) {
+	.gridContainer {
+		grid-template-columns: 1fr;
+	}
+}
+
+
 

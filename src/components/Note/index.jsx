@@ -4,10 +4,10 @@ import { EditOutlined, CloseOutlined } from "@ant-design/icons";
 
 function Note({ cor }) {
   return (
-    <div className={style.celulaContainer}>
+    <div className={style.gridItem}>
       <div className={style.celula} style={{ background: `${cor}` }}>
         <div className={style.header}>
-          Título{" "}
+          Título
           <button
             style={{
               background: "none",
@@ -19,7 +19,7 @@ function Note({ cor }) {
             }}
           >
             <CloseOutlined style={{ fontSize: "0.7rem" }} />
-          </button>{" "}
+          </button>
         </div>
         <div className={style.body}> Seu texto</div>
         <div className={style.footer}>

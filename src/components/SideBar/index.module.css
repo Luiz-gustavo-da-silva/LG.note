@@ -34,11 +34,8 @@
     }
     .sidebar{
         height: auto;
+        width: 90%;
+        margin:auto ;
     }
-    .logo{
-        padding-left: 1rem;
-    }
-    .container div:nth-child(2){
-        padding-right: 1rem;
-    }
+    
 }

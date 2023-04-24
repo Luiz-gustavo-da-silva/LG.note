@@ -1,9 +1,3 @@
-.celulaContainer{
-	padding: 0.7rem;
-	width: 20%;
-    font-family: 'Roboto Mono', monospace;
-}
-
 .celula{
 	background-color: #efeacd;
 	padding: 1rem;
@@ -30,9 +24,6 @@
     align-items: center;
 }
 
-/* .containerCelulas .celulaContainer:nth-child(4n+1) {
-	padding-left: 0;
-} */
 
 .buttonPlus{
     border: none;
@@ -53,9 +44,6 @@
     .celulaContainer {
         width: 33.3333% !important;
     }
-	/* .containerCelulas .celulaContainer:nth-child(4n+1) {
-		padding-left: 0.7rem;
-	} */
 }
 
 @media (max-width: 700px){
@@ -63,8 +51,4 @@
         width: 100% !important;
         padding: 0rem 1rem;
     }
-
-	/* .containerCelulas .celulaContainer:nth-child(4n+1) {
-		padding-left: 0rem;
-	} */
 }

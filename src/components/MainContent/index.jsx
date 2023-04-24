@@ -6,9 +6,9 @@ function Header() {
   return (
     <div className={style.mainContent}>
       <div className={style.divH1}>
-        <h1 style={{ fontSize: "2.5rem", fontFamily: "Roboto Mono" }}>Notes</h1>
+        <h1>Notes</h1>
       </div>
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent:'center' }} className={style.containerCelulas}>
+      <div className={style.gridContainer}>
         <Note cor={"#dbbdff"}/>
         <Note cor={"#efeacd"}/>
         <Note cor={"#efeacd"}/>
@@ -16,7 +16,6 @@ function Header() {
         <Note cor={"#ffbdca"}/>
         <Note cor={"#ddecd0"}/>
         <Note cor={"#dbbdff"}/>
-        <Note cor={"#ddecd0"}/>
       </div>
     </div>
   );
