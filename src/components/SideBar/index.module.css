@@ -16,10 +16,9 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-
 .sidebar {
 	grid-area: sidebar;
-	height: 100vh;
+	height: 90vh;
 }
 
 @media (max-width: 700px){
@@ -32,10 +31,10 @@
         padding: 0;
         justify-content: space-between;
     }
+    
     .sidebar{
         height: auto;
         width: 90%;
         margin:auto ;
     }
-    
 }

@@ -1,6 +1,7 @@
 .mainContent {
 	grid-area: mainContent;
 	width: 100%;
+	min-height: 78vh;
 }
 
 .divH1{
